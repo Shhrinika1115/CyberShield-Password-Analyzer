@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CyberShield Password Analyzer</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+<div class="container">
+
+    <h1>🔒 CyberShield</h1>
+
+    <input 
+        type="password" 
+        id="password" 
+        placeholder="Enter Password">
+
+
+    <div class="buttons">
+
+        <button id="toggleBtn">
+            Show Password
+        </button>
+
+
+        <button id="copyBtn">
+            Copy
+        </button>
+
+
+        <button id="generateBtn">
+            Generate
+        </button>
+
+    </div>
+
+
+    <!-- Password Strength Bar -->
+
+    <div class="strength-bar">
+
+        <div id="progress"></div>
+
+    </div>
+
+
+    <h2 id="strengthText">
+        Strength : -
+    </h2>
+
+
+    <p id="crackTime">
+        Estimated Crack Time: -
+    </p>
+
+
+
+    <h3>
+        Security Suggestions
+    </h3>
+
+
+    <ul id="tips">
+
+    </ul>
+
+
+
+    <button id="themeBtn">
+        Dark Mode
+    </button>
+
+
+</div>
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
